@@ -188,10 +188,10 @@ section {
     justify-content: space-between;
     color: white;
     text-decoration: none;
-    border-radius: 25px;
-    font-weight: 500;
+    border-radius: 15px;
+    font-weight: 300;
     transition: all 0.3s ease;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 }
 
 .link-button:hover {

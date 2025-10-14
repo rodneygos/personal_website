@@ -6,6 +6,7 @@
     <title>Mutyaba Rodney - Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="java.js" defer></script>
 </head>
 <body>
     
@@ -69,6 +70,8 @@
                 </ul>
             </div>
         </div>
+         <button class="interactive-btn" onclick="toggleTheme()">Toggle Dark Mode</button>
+    
     </section>
 
     <section class="links " id = "mylinks">
@@ -76,6 +79,10 @@
         <div class="My Skills & Hobbies">
             <a href="https://github.com/rodneygos/Rodney-champ" target="_blank" class="link-button">My GitHub</a>
             <a href="https://www.linkedin.com/mynetwork/" target="_blank" class="link-button">LinkedIn Profile</a>
+        </div>
+         <button class="interactive-btn" onclick="updateContactInfo()">Show Contact Info</button>
+        <div id="contactBox" class="message-box">
+            <p id="contactText"></p>
         </div>
     </section>
 
